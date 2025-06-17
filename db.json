@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "nom": "Fadiga Mariama",
+      "telephone": "775676452",
+      "adresse": "Sahm",
+      "dettes": [1, 2]
+    },
+    {
+      "id": 2,
+      "nom": "Youssouf Dieng",
+      "telephone": "783792910",
+      "adresse": "Sandaga",
+      "dettes": []
+    }
+  ],
+  "dettes": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "date": "2024-06-17",
+      "montantDette": 50000,
+      "paiements": [20000, 10000]
+    },
+    {
+      "id": 2,
+      "clientId": 1,
+      "date": "2024-06-10",
+      "montantDette": 20000,
+      "paiements": []
+    }
+  ]
+}
